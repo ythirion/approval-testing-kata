@@ -1,4 +1,6 @@
 # Approval Testing by Example
+![Approval Testing by Example](img/approval-testing-by-example.webp)
+
 ## Objectives
 * Discover how and why use an object-object mapper library
 * Practice Approval testing approach and discover how powerful it can be with several Use Cases :
