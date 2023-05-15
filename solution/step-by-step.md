@@ -1,4 +1,4 @@
-# Approval CSharp kata
+# Approval Testing by Example
 ## Objectives
 * Discover how and why use an object-object mapper library
 * Practice Approval testing approach and discover how powerful it can be with several Use Cases :
@@ -247,7 +247,7 @@ public Task Map_PersonAccount_To_IndividualParty_With_Verify()
     => Verify(MapAlCaponeToIndividualParty());
 ```
 * When you run the test, the library will create 2 files :
-![cheat sheet](img/sfmapping_verify.png)
+![cheat sheet](../img/sfmapping_verify.png)
   * *.received.*.txt file contains the json representation of our `target`
   * *.verified.*.txt is our verified snapshot (empty for now)
 * It will use the `verified` file to make the assertions on our SUT
@@ -317,7 +317,7 @@ public Task Map_PersonAccount_To_IndividualParty_With_Verify()
     * Use it from the `Unit Tests` panel
   * `Drag & Drop` the received file on the Test Class to have this file depending on its Test Class
 
-![drag & drop](img/sfMapping_dragdrop.png)
+![drag & drop](../img/sfMapping_dragdrop.png)
 
 > What do you think about it ?
 
@@ -590,7 +590,7 @@ public class TemplateRetriever
 ```
 
 * Let's use the power of ApprovalTesting to check all the possible combinations without effort
-* ![cheat sheet](img/approval-testing-cheatsheet.png)
+* ![cheat sheet](../img/approval-testing-cheatsheet.png)
 
 * Generate combinations and have only 1 `verified` file
   * Unfortunately `Combination` is not available in `Verify` (it is in the Approvals lib java version)

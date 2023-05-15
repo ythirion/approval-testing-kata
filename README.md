@@ -1,4 +1,4 @@
-# Approval CSharp kata
+# Approval Testing by Example
 ## Objectives
 * Discover how and why use an object-object mapper library
 * Practice Approval testing approach and discover how powerful it can be with several Use Cases :
@@ -85,3 +85,6 @@ public static Template FindTemplateFor(string documentType, string recordType)
   
 * ![cheat sheet](img/approval-testing-cheatsheet.png)
     * Generate combinations and have only 1 `verified` file
+
+## "Solution"
+A proposal of solution is available in `C#` with Verify in the solution folder as well as a step-by-step guide available [here](solution/step-by-step.md).
